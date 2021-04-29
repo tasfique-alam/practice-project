@@ -6,7 +6,7 @@
   padding-bottom: 10px;
 }
 .navbar .navbar-div .logo .navbar-brand {
-  color: #ffffff;
+  color: white;
   font-size: 30px;
 }
 .navbar .navbar-div .navbar-toggler .navbar-toggler-icon {
@@ -23,8 +23,48 @@
   padding-left: 20px;
   font-size: 20px;
 }
+@media only screen and (max-width: 575px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link {
+    font-size: 21px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link {
+    font-size: 21px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link {
+    font-size: 21px;
+  }
+}
 .navbar .navbar-div .navbar-nav .nav-item .nav-link.active {
   color: yellow;
+}
+@media only screen and (min-width: 1200px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link.active {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link.active {
+    font-size: 21px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link.active {
+    font-size: 21px;
+  }
+}
+@media only screen and (min-width: 575px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link.active {
+    font-size: 21px;
+  }
 }
 
 .banner {
@@ -132,9 +172,25 @@
 
 .main-support .support-title {
   padding-top: 60px;
+  font-size: 30px;
+}
+@media only screen and (max-width: 575px) {
+  .main-support .support-title {
+    font-size: 13px;
+    padding-top: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main-support .support-title {
+    font-size: 16px;
+    padding-top: 30px;
+  }
 }
 .main-support .support-paragraph {
   padding-bottom: 20px;
+}
+.main-support .details-support .work-support-all {
+  transition: all 0.3s ease-in;
 }
 .main-support .details-support .work-support-all .support {
   border: 2px solid #F0F0F0;
@@ -149,6 +205,9 @@
 }
 .main-support .details-support .work-support-all .support .details-support-title {
   padding-top: 15px;
+}
+.main-support .details-support .work-support-all .support:hover {
+  transform: scale(1.1) !important;
 }
 .main-support .details-support .work-support-all .main-support-btn {
   display: flex;
