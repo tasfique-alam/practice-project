@@ -1,0 +1,230 @@
+.navbar{
+    background: #10103A;
+    .navbar-div{
+        padding-top: 10px;
+        padding-bottom: 10px;
+            .logo{
+                  .navbar-brand{
+                      color: #ffffff;
+                      font-size: 30px;
+                     }
+          } 
+         .navbar-toggler{
+             .navbar-toggler-icon{
+            color: white;
+            }
+        }
+        .navbar-nav{
+            list-style-type: none;
+            .nav-item{
+                .nav-link:hover{
+                    color: yellow;
+                }
+                .nav-link{
+                    color: white;
+                    padding-left: 20px;
+                    font-size: 20px;
+                }
+                .nav-link{
+                    &.active{
+                        color: yellow;
+                    }
+                }
+
+            }
+        }
+    }
+}
+.banner{
+    background: #10103A;
+    padding: 10px;
+    width: 100%;
+    .welcome{
+        .welcome-title{
+            color: white;
+            padding-bottom: 10px;
+    }
+    .welcome-side-title{
+        color: yellow;
+        padding-bottom: 10px;
+    }
+    .welcome-paragraph{
+        color: white;
+        padding-bottom: 10px;
+    }
+    .my-btn{
+        border-radius: 0;
+    }
+    .my-btn:hover{
+        color: white;
+        background: red;
+    }
+    }
+}
+.hosting{
+    padding-top: 100px;
+    .title-work{
+        padding-top: 10px;
+        font-weight: bolder;
+    }
+    .img-work{
+        padding-top: 10px;
+    }
+    .title-paragraph{
+        padding-top: 10px;
+    }
+    .hosting-btn{ 
+        padding-bottom: 20px;
+        .work-btn{
+            width: 150px;
+            color: white;
+            background: red;
+            border-radius: 0;
+        }
+    }
+}
+.main-services{
+    background: #10103A;
+    .service-title{
+        color: white;
+        font-size: 50px;
+        padding-top: 40px;
+    }
+    .service-paragraph{
+        color: white;
+    }
+    .main-hosting{
+        display: flex;
+        justify-content: center;
+        .service-hosting{
+            border: 1px solid yellow;
+            text-align: center;
+            width: 300px;
+            height: 300px;
+            padding-top: 10px;
+            margin: 20px;
+            cursor: pointer;
+            border-radius: 20px;
+            .hosting-logo{
+                background-color: white;
+                border-radius: 50%;
+                padding: 10px;
+            }
+            .hosting-title{
+                padding-top: 10px;
+                color: white;
+            }
+            .hosting-paragraph{
+                color: white;
+            }
+        }
+    }
+    .service-hosting-btn{
+        padding-top: 30px;
+        padding-bottom: 40px;
+        .service-btn{
+            width: 150px;
+            border-radius: 0;
+        }
+        .service-btn:hover{
+            color: white;
+            background: #8308EB;
+        }
+
+    }
+}
+.service-hosting:hover{
+    background: #8308EB;
+    transition: all 0.5s ease-out;
+}
+.main-support{
+    .support-title{
+        padding-top: 60px;
+    }
+    .support-paragraph{
+        padding-bottom: 20px;
+    }
+    .details-support{
+        .work-support-all{
+            .support{
+                border: 2px solid #F0F0F0;
+                border-radius: 15px;
+                width: 350px;
+                margin: 10px;
+                height: 350px;
+                text-align: center;
+                .details-support-logo{
+                    padding-top: 30px;
+                }
+                .details-support-title{
+                    padding-top: 15px;
+                }
+            }
+            .main-support-btn{
+                display: flex;
+                justify-content: space-around;
+                .support-btn{
+                    width: 150px;
+                    background: red;
+                    color: white;
+                    border-radius: 0;
+                }
+                .support-btn:hover{
+                    background: #8308EB;
+                }
+            }
+        }
+     
+    }
+}
+.contact-demo-main{
+    .contact-demo-all{
+        display: flex;
+        justify-content: center;
+        .form-design{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background: #0C0F38;
+            width: 450px;
+            height: 400px;
+            border-radius: 30px;
+            margin-bottom: -200px;
+            .begin-contact{
+                padding-top: 50px;
+            }
+            .form-group{
+                #name{
+                    width:350px;
+                    border-radius: 10px;
+                    outline: 0;
+                }
+                #email{
+                    width: 350px;
+                    border-radius: 10px;
+                }
+                #phone{
+                    width: 350px;
+                    border-radius: 10px;
+                }
+                #messege{
+                    border-radius: 10px;
+                }
+            }
+        }
+            .contact-btn{
+                width: 150px;
+                border-radius: 30px;
+            }
+    }
+    .contact-service{
+        color: #F0F0F0;
+        background: #0C0F38;
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+        .contact-title{
+            padding-top: 30px;
+        }
+    }
+}

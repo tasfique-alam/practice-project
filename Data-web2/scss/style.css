@@ -1,0 +1,42 @@
+.navbar {
+  background: #10103A;
+}
+
+.navbar .navbar-div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar .navbar-div .logo .navbar-brand {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.navbar .navbar-div .navbar-toggler .navbar-toggler-icon {
+  color: white;
+}
+
+.navbar .navbar-div .navbar-nav {
+  list-style-type: none;
+}
+
+.navbar .navbar-div .navbar-nav .nav-item .nav-link:hover {
+  color: yellow;
+}
+
+.navbar .navbar-div .navbar-nav .nav-item .nav-link {
+  color: white;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.navbar .navbar-div .navbar-nav .nav-item .nav-link.active {
+  color: yellow;
+}
+
+.banner {
+  background: #10103A;
+  width: 100%;
+  height: 500px;
+}
+/*# sourceMappingURL=style.css.map */
