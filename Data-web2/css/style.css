@@ -1,0 +1,274 @@
+.navbar {
+  background: #10103A;
+}
+.navbar .navbar-div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar .navbar-div .logo .navbar-brand {
+  color: white;
+  font-size: 30px;
+}
+.navbar .navbar-div .navbar-toggler .navbar-toggler-icon {
+  color: white;
+}
+.navbar .navbar-div .navbar-nav {
+  list-style-type: none;
+}
+.navbar .navbar-div .navbar-nav .nav-item .nav-link:hover {
+  color: yellow;
+}
+.navbar .navbar-div .navbar-nav .nav-item .nav-link {
+  color: white;
+  padding-left: 20px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 575px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link {
+    font-size: 21px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link {
+    font-size: 21px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link {
+    font-size: 21px;
+  }
+}
+.navbar .navbar-div .navbar-nav .nav-item .nav-link.active {
+  color: yellow;
+}
+@media only screen and (min-width: 1200px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link.active {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link.active {
+    font-size: 21px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link.active {
+    font-size: 21px;
+  }
+}
+@media only screen and (min-width: 575px) {
+  .navbar .navbar-div .navbar-nav .nav-item .nav-link.active {
+    font-size: 21px;
+  }
+}
+
+.banner {
+  background: #10103A;
+  padding: 10px;
+  width: 100%;
+}
+.banner .welcome .welcome-title {
+  color: white;
+  padding-bottom: 10px;
+}
+.banner .welcome .welcome-side-title {
+  color: yellow;
+  padding-bottom: 10px;
+}
+.banner .welcome .welcome-paragraph {
+  color: white;
+  padding-bottom: 10px;
+}
+.banner .welcome .my-btn {
+  border-radius: 0;
+}
+.banner .welcome .my-btn:hover {
+  color: white;
+  background: red;
+}
+
+.hosting {
+  padding-top: 100px;
+}
+.hosting .title-work {
+  padding-top: 10px;
+  font-weight: bolder;
+}
+.hosting .img-work {
+  padding-top: 10px;
+}
+.hosting .title-paragraph {
+  padding-top: 10px;
+}
+.hosting .hosting-btn {
+  padding-bottom: 20px;
+}
+.hosting .hosting-btn .work-btn {
+  width: 150px;
+  color: white;
+  background: red;
+  border-radius: 0;
+}
+
+.main-services {
+  background: #10103A;
+}
+.main-services .service-title {
+  color: white;
+  font-size: 50px;
+  padding-top: 40px;
+}
+.main-services .service-paragraph {
+  color: white;
+}
+.main-services .main-hosting {
+  display: flex;
+  justify-content: center;
+}
+.main-services .main-hosting .service-hosting {
+  border: 1px solid yellow;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  padding-top: 10px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.main-services .main-hosting .service-hosting .hosting-logo {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.main-services .main-hosting .service-hosting .hosting-title {
+  padding-top: 10px;
+  color: white;
+}
+.main-services .main-hosting .service-hosting .hosting-paragraph {
+  color: white;
+}
+.main-services .service-hosting-btn {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.main-services .service-hosting-btn .service-btn {
+  width: 150px;
+  border-radius: 0;
+}
+.main-services .service-hosting-btn .service-btn:hover {
+  color: white;
+  background: #8308EB;
+}
+
+.service-hosting:hover {
+  background: #8308EB;
+  transition: all 0.5s ease-out;
+}
+
+.main-support .support-title {
+  padding-top: 60px;
+  font-size: 30px;
+}
+@media only screen and (max-width: 575px) {
+  .main-support .support-title {
+    font-size: 13px;
+    padding-top: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main-support .support-title {
+    font-size: 16px;
+    padding-top: 30px;
+  }
+}
+.main-support .support-paragraph {
+  padding-bottom: 20px;
+}
+.main-support .details-support .work-support-all {
+  transition: all 0.3s ease-in;
+}
+.main-support .details-support .work-support-all .support {
+  border: 2px solid #F0F0F0;
+  border-radius: 15px;
+  width: 350px;
+  margin: 10px;
+  height: 350px;
+  text-align: center;
+}
+.main-support .details-support .work-support-all .support .details-support-logo {
+  padding-top: 30px;
+}
+.main-support .details-support .work-support-all .support .details-support-title {
+  padding-top: 15px;
+}
+.main-support .details-support .work-support-all .support:hover {
+  transform: scale(1.1) !important;
+}
+.main-support .details-support .work-support-all .main-support-btn {
+  display: flex;
+  justify-content: space-around;
+}
+.main-support .details-support .work-support-all .main-support-btn .support-btn {
+  width: 150px;
+  background: red;
+  color: white;
+  border-radius: 0;
+}
+.main-support .details-support .work-support-all .main-support-btn .support-btn:hover {
+  background: #8308EB;
+}
+
+.contact-demo-main .contact-demo-all {
+  display: flex;
+  justify-content: center;
+}
+.contact-demo-main .contact-demo-all .form-design {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #0C0F38;
+  width: 450px;
+  height: 400px;
+  border-radius: 30px;
+  margin-bottom: -200px;
+}
+.contact-demo-main .contact-demo-all .form-design .begin-contact {
+  padding-top: 50px;
+}
+.contact-demo-main .contact-demo-all .form-design .form-group #name {
+  width: 350px;
+  border-radius: 10px;
+  outline: 0;
+}
+.contact-demo-main .contact-demo-all .form-design .form-group #email {
+  width: 350px;
+  border-radius: 10px;
+}
+.contact-demo-main .contact-demo-all .form-design .form-group #phone {
+  width: 350px;
+  border-radius: 10px;
+}
+.contact-demo-main .contact-demo-all .form-design .form-group #messege {
+  border-radius: 10px;
+}
+.contact-demo-main .contact-demo-all .contact-btn {
+  width: 150px;
+  border-radius: 30px;
+}
+.contact-demo-main .contact-service {
+  color: #F0F0F0;
+  background: #0C0F38;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+.contact-demo-main .contact-service .contact-title {
+  padding-top: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
