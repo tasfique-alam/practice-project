@@ -1,0 +1,135 @@
+.navbar-brand-logo {
+  font-size: 40px;
+  font-weight: bold;
+  list-style-type: none;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.navbar-dot-design {
+  margin: 0;
+  padding: 0;
+  size: 20px;
+  color: #106EEA;
+  margin-top: 20px;
+}
+
+.navbar .navbar-nav .nav-item {
+  font-size: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  padding-left: 10px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: #2279EC;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #2279EC;
+}
+
+.banner {
+  background-image: url(https://cdn.statically.io/img/i.pinimg.com/originals/7f/22/34/7f2234d24d3383a8439020f9d86c3f99.jpg);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.banner .banner-icon {
+  margin-top: 20px;
+  font-size: 40px;
+  color: #247CF0;
+}
+
+.banner-welcome-title {
+  padding-top: 100px;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.banner-welcome-title-side {
+  color: #106EEA;
+}
+
+.banner-welcome-para {
+  font-size: 25px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.banner-welcome-button {
+  padding-right: 10px;
+}
+
+.banner-welcome-icon {
+  font-size: 40px;
+  color: #247CF0;
+  margin-top: 20px !important;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-welcome-icon-title {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.banner-welcome-icon-title:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background-color: #F5F6F9;
+}
+
+.content-item {
+  background: #FFFFFF;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  height: 250px;
+  padding-top: 30px;
+  padding-left: 20px;
+  margin: 10px;
+}
+
+.content-item-icon {
+  color: blue;
+  font-size: 50px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.content-item-title {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.about {
+  padding-top: 100px;
+}
+
+.about-button {
+  cursor: none;
+  color: #106EEA;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.about-title {
+  font-weight: bold;
+}
+
+.about-title-side {
+  color: #106EEA;
+}
+/*# sourceMappingURL=style.css.map */
