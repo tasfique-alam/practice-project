@@ -11,5 +11,47 @@
   opacity: 0.5;
   width: 12px;
 }
+#owl-demo{
+  position: relative;
+}
+
+#owl-demo .item{
+  background-image: url('https://media.istockphoto.com/photos/dark-black-and-blue-grungy-wall-background-for-display-or-montage-of-picture-id1150477705');
+  width: 80%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  height: 300px;
+}
+#owl-demo .item p{
+ color: white;
+ font-size: 40px;
+}
+
+/* owl nav */
+.owl-prev span, .owl-next span {
+	color: #FFF;
+}
+
+.owl-prev span:hover, 
+.owl-next span:hover {
+	color: #8199A3;
+}
+
+.owl-prev, .owl-next {
+	position: absolute;
+	top: 50%;
+	height: 100%;
+}
+
+.owl-prev {
+	left: 7px;
+}
+
+.owl-next {
+	right: 7px;
+}
+
+
 
 /*# sourceMappingURL=style.css.map */

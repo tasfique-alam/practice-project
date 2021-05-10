@@ -1,13 +1,19 @@
 $(document).ready(function() {
+    AOS.init();  
+  });
+
+
+
+$(document).ready(function() {
  
     $("#owl-demo").owlCarousel({
    
-        autoPlay: 3000, //Set AutoPlay to 3 seconds
-   
-        items : 4,
-        itemsDesktop : [1199,3],
-        itemsDesktopSmall : [979,3]
-   
+        nav : true, // Show next and prev buttons
+        navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem:true,
     });
+
    
   });
