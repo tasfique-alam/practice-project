@@ -41,7 +41,7 @@
     .banner-icon{
         margin-top: 20px;
         font-size: 40px;
-        color: #247CF0;
+        color: white;
     }
     &-welcome{
         &-title{
@@ -325,4 +325,7 @@
             }
         }
     }
+}
+@media only screen  and (min-width: 1200px){
+    
 }
