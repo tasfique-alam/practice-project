@@ -1,0 +1,464 @@
+.navbar{
+    &-brand{
+       &-logo{
+        font-size: 40px;  
+        font-weight: bold;
+        list-style-type: none;
+        padding-right: 0;
+        margin-right: 0;
+       }
+    }
+    &-dot{
+        &-design{
+            margin: 0;
+            padding: 0;
+            size: 20px;
+            color: #106EEA;
+            margin-top: 20px;
+        }
+    }
+    .navbar-nav{
+        .nav-item{
+            font-size: 20px;
+            .nav-link{
+                padding-left: 10px;
+                &.active{
+                    color: #2279EC;
+                }
+            }
+            .nav-link:hover{
+                color: #2279EC;
+            }
+        }
+    }
+}
+.banner{
+    background-image: url(../Image/bizland.img.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    &-welcome{
+        &-title{
+            padding-top: 100px;
+            font-weight: bolder;
+            font-size: 60px;
+            &-side{
+                color: #106EEA;
+            }
+        }
+        &-para{
+            font-size: 25px;
+            font-weight: bold;
+            color: whitesmoke;
+        }
+    }
+    &-content{
+        display: flex;
+        &-button{
+            margin-right: 10px;
+            margin-bottom: 20px;
+        }
+        &-main{
+            margin-top: 10px;
+            &-icon{
+                font-size: 30px;
+                color: whitesmoke;
+            }
+            &-title{
+                font-size: 25px;
+                padding-left: 5px;
+                color: whitesmoke;
+            }
+            &:hover{
+                cursor: pointer;
+                .banner-content-main-icon{
+                    color: #106EEA;
+                }
+                .banner-content-main-title{
+                    color: #106EEA;
+                }
+
+            }
+        }
+    }
+}
+.content{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: #F5F6F9;
+    &-item{
+        background: #FFFFFF;
+        border: 2px solid #ffffff;
+        border-radius: 10px;
+        height: 250px;
+        padding-top: 30px;
+        padding-left: 20px;
+        margin: 10px;
+        &-icon{
+            color: blue;
+            font-size: 50px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+        }
+        &-title{
+            font-size: 25px;
+            cursor: pointer;
+        }
+        &-para{
+
+        }
+    }
+}
+.about{
+    padding-top: 100px;
+    background: #F6F9FE;
+    .about-button{
+        border-radius: 100px;
+        color: #106EEA;
+    }
+    &-title{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    &-content{
+        &-image{
+            padding-bottom: 20px;
+        }
+        &-main-title{
+            font-size: 25px;
+        }
+        &-item{
+            display: flex;
+            flex-direction: column;
+            &-main{
+                display: flex;
+                align-items: center;
+                &-icon{
+                    border: 2px solid #EAF2FD;
+                    color: #106EEA;
+                    font-size: 30px;
+                    padding: 15px;
+                    margin-left: 10px;
+                    border-radius: 50px;
+                }
+                &-title{
+                    margin-left: 20px;
+                }
+            }
+            &-para{
+                padding-left: 100px;
+            }
+        }
+    }
+}
+.services{
+    margin-top: 100px;
+    padding-bottom: 100px;
+    .services-work-item:hover{
+        transition: .3s ease-out;
+        .services-work-item-button{
+            border: 1px solid #247CF0;
+        }
+        .services-work-item-title{
+            color: #247CF0;
+            cursor: pointer;
+        }
+    }
+    &-content{
+        .services-content-button{
+            border-radius: 100px;
+            color: #106EEA;
+            margin-top: 20px;
+        }
+        &-title{
+            color: #444444;
+            padding-top: 20px;
+            &-side{
+                color: #106EEA;
+            }
+        }
+        &-pera{
+            padding-top: 20px;
+            color: #5B5B5B;
+        }
+    }
+    &-work{
+        margin-top: 80px;
+        &-item{
+            background: #FFFFFF;
+            border: 2px solid #F3F7FE;
+            border-radius: 10%;
+            height: 300px;
+            margin: 20px;
+            text-align: center;
+            padding-top: 60px;
+            &-button{
+                display: flex;
+                align-items: center;
+                padding: 15px;
+                color: blue;
+                font-size: 30px;
+                width: 70px;
+                height: 60px;
+                background: #F1F6FE;
+            }
+        }
+        &-item:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+.owl-theme .owl-controls .owl-page {
+    display: inline-block;
+  }
+  
+  .owl-theme .owl-controls .owl-page span {
+    background: none repeat scroll 0 0 red;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
+    margin-top: -100px;
+  }
+  .owl-theme .owl-controls .owl-page span:active{
+    background: yellowgreen;
+  }
+  .owl-theme .owl-controls .owl-page .active span:hover{
+    background: yellowgreen;
+  }
+  #owl-demo{
+    position: relative;
+  }
+  .owl-prev span, .owl-next span {
+	color: #FFF;
+}
+
+.owl-prev span:hover, 
+.owl-next span:hover {
+	color: #8199A3;
+}
+
+.owl-prev, .owl-next {
+	position: absolute;
+	top: 50%;
+	height: 100%;
+}
+
+.owl-prev {
+	left: 7px;
+}
+
+.owl-next {
+	right: 7px;
+}
+.team-info{
+  text-align: center;
+    &-all{
+        background-image: url(../image/93178.jpg);
+        background-repeat: no-repeat;
+        text-align: center;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        object-fit: contain;
+        padding-top: 50px;
+        &-image{
+            width: 90px;
+            border-radius: 50%;
+        }
+        &-pera{
+          text-align: center;
+        }
+    }
+}
+.team-content{
+    margin-top: 80px;
+    &-main{
+        .team-content-button{
+            color: #106EEA;
+            text-transform: uppercase;
+            border-radius: 100px;
+        }
+        &-title{
+            color: #444444;
+            &-side{
+                color: #106EEA;
+            }
+        }
+        &-para{
+            font-size: 20px;
+            color: #727274;
+        }
+    }
+    .card{
+        margin-top: 20px;
+    }
+}
+.question{
+    margin-top: 100px;
+    background: #F6F9FE;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    .question-main-button{
+        margin-bottom: 20px;
+        border-radius: 100px;
+        color: #247CF0;
+        font-weight: bold;
+    }
+    &-main{
+        &-title{
+            color: #444444;
+            font-weight: bold;
+        }
+        &-pera{
+            font-size: 20px;
+            font-weight: bold;
+            color: #5F5F60;
+        }
+    }
+    &-content{
+        margin-top: 50px;
+        margin-left: 50px;
+          &-title{
+            margin-left: 20px;
+            font-size: 20px;
+          }
+          &-title:hover{
+              color: #247CF0;
+              cursor: pointer;
+          }
+          &-pera{
+              margin-left: 40px;
+          }
+        
+    }
+}
+.contact{
+    margin-top: 100px;
+    &-main{
+        margin-bottom: 50px;
+        .conatct-main-button{
+            color: #247CF0;
+            border-radius: 100px;
+            margin-bottom: 20px;
+        }
+        &-title{
+            font-weight: bold;
+        }
+        &-pera{
+            color: #616161;
+            font-size: 20px;
+        }
+    }
+    &-content{
+        background: #F9F9F9;
+        padding-top: 50px;
+        &-item{
+            background: #FFFFFF;
+            height: 200px;
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &-icon{
+                font-size: 30px;
+                color: #106EEA;
+                width: 60px;
+                padding-top: 10px;
+                height: 60px;
+                text-align: center;
+                border: 3px dotted #B7D4FA;
+                border-radius: 50px;
+            }
+            &-title{
+                color: #777777;
+                font-weight: bold;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
+        &-form{
+            background: #FFFFFF;
+            padding-top: 20px;
+            padding: 30px;
+            padding-bottom: 100px;
+            &-button{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+@media only screen  and (max-width: 768px){
+    .content{
+        padding-top: 60px;
+        padding-bottom: 50px;
+        background-color: #F5F6F9;
+        &-item{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background: #FFFFFF;
+            border: 2px solid #ffffff;
+            border-radius: 10px;
+            height: 250px;
+            padding-top: 30px;
+            padding-left: 20px;
+            margin: 10px;
+            &-icon{
+                color: blue;
+                font-size: 50px;
+                padding-bottom: 20px;
+                padding-left: 10px;
+            }
+            &-title{
+                font-size: 25px;
+                cursor: pointer;
+            }
+            &-para{
+    
+            }
+        }
+    }
+}
+
+@media only screen  and (max-width: 400px){
+    .banner{
+        background-image: url(../Image/bizland.img.jpg);
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        &-welcome{
+            &-title{
+                padding-top: 100px;
+                font-weight: bolder;
+                font-size: 30px;
+                &-side{
+                    color: #106EEA;
+                }
+            }
+            &-para{
+                font-size: 20px;
+                font-weight: bold;
+                color: whitesmoke;
+            }
+            &-main{
+
+            }
+        }
+        &-content{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
