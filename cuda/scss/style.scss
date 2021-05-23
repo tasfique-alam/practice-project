@@ -1,0 +1,156 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background: linear-gradient(rgba(135, 80, 156,0.9),rgba(135, 80, 156,0.9)), url(../css/image/1st-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 85%;
+    background-attachment: fixed;
+}
+.navbar{
+    background-color: #7F4C94;
+    &-brand{
+       &-logo{
+        font-size: 16px;  
+        font-weight: bold;
+        list-style-type: none;
+        margin-left: 40px;
+        padding: 10px;
+        margin-bottom: 10px;
+       }
+    }
+    .navbar-nav{
+        .nav-item{
+            font-size: 20px;
+            color: #E0D2E5;
+            .nav-link{
+                padding: 5px;
+                margin-left: 20px;
+                color: whitesmoke;
+                font-size: 16px;
+                &.active{
+                    color: #E0D2E5;
+                    background: #643A79;
+                }
+            }
+            .nav-link:hover{
+                color: #E0D2E5;
+                background: #643A79;
+                transition: 0.3s;
+            }
+        }
+    }
+}
+.banner{
+    &-main{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        &-title{
+            color: #F2EBE6;
+            padding-bottom: 20px;
+            font-size: 42px;
+            font-weight: bold;
+        }
+        &-button{
+            background: #EB7D4B;
+            &-link{
+                color: whitesmoke;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+.banner-main-button-link:hover{
+    color: whitesmoke;
+}
+.service{
+    background: linear-gradient(rgba(23, 194, 164, 0.9),rgba(23, 194, 164, 0.9)), url(../css/image/2nd-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 85%;
+    padding-bottom: 40px;
+    &-main{
+        padding-top: 70px;
+        padding-bottom: 50px;
+        &-title{
+            color: whitesmoke;
+        }
+        &-title::after{
+            content: "";
+            display: block;
+            height: 4px;
+            background: #14A58C;
+            width: 86px;
+            margin: auto;
+            margin-top: 20px;
+        }
+        &-pera{
+            color: whitesmoke;
+        }
+    }
+    &-item{
+        &-main{
+            text-align: center;
+            &-icon{
+                height: 90px;
+                margin-bottom: 30px;
+            }
+            &-title{
+                padding-top: 20px;
+                color: #fff;
+                padding-bottom: 20px;
+                font-size: 24px;
+                text-transform: uppercase;
+            }
+            &-pera{
+                color: #fff;
+            }
+        }
+    }
+}
+.team{
+    background-color: #E7F1F8;
+    &-main{
+        padding-top: 100px;
+        &-title{
+            font-size: 41px;
+            color: #4A556E;
+        }
+        &-title::after{
+            content: "";
+            display: block;
+            height: 4px;
+            background: #C8D9E5;
+            width: 86px;
+            margin: auto;
+            margin-top: 20px;
+        }
+        &-pera{
+            font-size: 18px;
+        }
+    }
+    &-item{
+        padding-bottom: 50px;
+        &-main{
+            margin: 20px;
+            text-align: center;
+            &-image{
+                padding-bottom: 20px;
+            }
+            &-title{
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+.skills{
+    padding-top: 100px;
+    &-main{
+        &-title{
+
+        }
+    }
+}
