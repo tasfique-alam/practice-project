@@ -1,21 +1,56 @@
-var type = 'money'
 
-function addNumber(numberOne,numberTwo){
-   return numberOne + numberTwo
+
+
+
+
+
+var alam = {
+    id: '1234',
+    name: 'akash',
+    age: 10
 }
 
 
+console.log(alam.id);
 
 
+let myArray = ['akash', 'alam', 'hamim']
 
-if(type == true){
-    console.log(addNumber(10,20));
-}else if(type == 'money'){
-    console.log(addNumber(100,200));
-}else{
-    console.log(addNumber(1000,2000));
-}
+console.log(myArray[1]);
 
+
+let name = [
+    {
+        id: 1,
+        name: 'akash',
+        age: 10
+    },
+    {
+        id: 2,
+        name: 'sky',
+        age: 10
+    },
+    {
+        id: 3,
+        name: 'hamim',
+        age: 10
+    },
+    {
+        id: 4,
+        name: 'alam',
+        age: 10,
+        hobby : ['reading', 'listening', 'swimming']
+    }
+]
+
+
+console.log(name[3].hobby[2]);
+
+let akash = name.map((item, index) => {
+    return index
+})
+
+console.log(akash);
 
 
 
